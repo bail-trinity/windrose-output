@@ -13,16 +13,16 @@
         LatLonBox defines the bounding box of the image on the map.
         Center point: 37.226387, -80.204598
 
-        Box size below is approximately 0.0009 degrees latitude/longitude
-        in each direction from center, which is roughly 100m N/S and
-        ~80m E/W at this latitude. Adjust these four values to resize:
-        increase for a bigger overlay, decrease for smaller.
+        Box size below is approximately 0.0018 degrees latitude/longitude
+        in each direction from center, which is roughly 200m N/S and
+        ~160m E/W at this latitude (doubled from the original). Adjust
+        these four values to resize further: increase for bigger, decrease for smaller.
       -->
       <LatLonBox>
-        <north>37.227287</north>
-        <south>37.225487</south>
-        <east>-80.203598</east>
-        <west>-80.205598</west>
+        <north>37.228187</north>
+        <south>37.224587</south>
+        <east>-80.202598</east>
+        <west>-80.206598</west>
       </LatLonBox>
     </GroundOverlay>
   </Document>
