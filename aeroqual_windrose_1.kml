@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2"
+     xmlns:kml="http://www.opengis.net/kml/2.2"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <GroundOverlay>
+      <name>Aeroqual Site Windrose</name>
+      <Icon>
+        <href>https://raw.githubusercontent.com/bail-trinity/windrose-output/main/windrose_sprite.png</href>
+      </Icon>
+      <!--
+        LatLonBox defines the bounding box of the image on the map.
+        Center point: 37.226387, -80.204598
+
+        Box size below is approximately 0.0009 degrees latitude/longitude
+        in each direction from center, which is roughly 100m N/S and
+        ~80m E/W at this latitude. Adjust these four values to resize:
+        increase for a bigger overlay, decrease for smaller.
+      -->
+      <LatLonBox>
+        <north>37.227287</north>
+        <south>37.225487</south>
+        <east>-80.203598</east>
+        <west>-80.205598</west>
+      </LatLonBox>
+    </GroundOverlay>
+  </Document>
+</kml>
